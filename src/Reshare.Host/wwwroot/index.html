@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Reshare</title>
+  <link rel="stylesheet" href="viewer.css">
+</head>
+<body>
+  <canvas id="screen" tabindex="0"></canvas>
+
+  <header id="bar">
+    <span class="brand">Reshare</span>
+    <span id="status" class="status">Connecting…</span>
+    <span class="spacer"></span>
+    <label class="toggle" title="Show this laptop's own cursor over the stream">
+      <input type="checkbox" id="localCursor"> Local cursor
+    </label>
+    <label class="toggle" id="swapWrap" title="Send ⌘ as Ctrl (useful when viewing a Windows/Linux host from a Mac)">
+      <input type="checkbox" id="swapCmd"> ⌘ → Ctrl
+    </label>
+    <button id="fullscreen" type="button">Fullscreen</button>
+  </header>
+
+  <div id="overlay" hidden></div>
+
+  <div id="message" hidden>
+    <div class="card">
+      <h1 id="msgTitle">Reshare</h1>
+      <p id="msgText"></p>
+      <form id="pinForm" hidden>
+        <input id="pin" inputmode="numeric" autocomplete="one-time-code" maxlength="12" placeholder="PIN shown on the host">
+        <button type="submit">Connect</button>
+      </form>
+    </div>
+  </div>
+
+  <script src="viewer.js"></script>
+</body>
+</html>

@@ -1,0 +1,64 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{AC04A439-6528-4BEB-B966-5A368A898E93}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reshare.Core", "src\Reshare.Core\Reshare.Core.csproj", "{C022AFFB-98BF-4E19-AAE1-33C6242C707E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reshare.Host", "src\Reshare.Host\Reshare.Host.csproj", "{244B351D-14D3-4C10-9A2E-87FD8399C59F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reshare.Platform.Linux", "src\Reshare.Platform.Linux\Reshare.Platform.Linux.csproj", "{7EE0D349-A5B1-4E1B-BD2F-A0F7D2FA6D58}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reshare.Platform.MacOS", "src\Reshare.Platform.MacOS\Reshare.Platform.MacOS.csproj", "{9A540278-8E2A-4B10-990F-AAD04C87FF42}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reshare.Platform.Windows", "src\Reshare.Platform.Windows\Reshare.Platform.Windows.csproj", "{4E69BA55-1CA9-4B5C-8774-D72548491C1A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{D2F2526F-0EEF-400A-8DF1-40455B644608}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reshare.Core.Tests", "tests\Reshare.Core.Tests\Reshare.Core.Tests.csproj", "{E7453F81-1F34-4D5B-8716-B3182A8292E8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C022AFFB-98BF-4E19-AAE1-33C6242C707E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C022AFFB-98BF-4E19-AAE1-33C6242C707E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C022AFFB-98BF-4E19-AAE1-33C6242C707E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C022AFFB-98BF-4E19-AAE1-33C6242C707E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{244B351D-14D3-4C10-9A2E-87FD8399C59F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{244B351D-14D3-4C10-9A2E-87FD8399C59F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{244B351D-14D3-4C10-9A2E-87FD8399C59F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{244B351D-14D3-4C10-9A2E-87FD8399C59F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7EE0D349-A5B1-4E1B-BD2F-A0F7D2FA6D58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7EE0D349-A5B1-4E1B-BD2F-A0F7D2FA6D58}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7EE0D349-A5B1-4E1B-BD2F-A0F7D2FA6D58}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7EE0D349-A5B1-4E1B-BD2F-A0F7D2FA6D58}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A540278-8E2A-4B10-990F-AAD04C87FF42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A540278-8E2A-4B10-990F-AAD04C87FF42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A540278-8E2A-4B10-990F-AAD04C87FF42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A540278-8E2A-4B10-990F-AAD04C87FF42}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E69BA55-1CA9-4B5C-8774-D72548491C1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E69BA55-1CA9-4B5C-8774-D72548491C1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E69BA55-1CA9-4B5C-8774-D72548491C1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E69BA55-1CA9-4B5C-8774-D72548491C1A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7453F81-1F34-4D5B-8716-B3182A8292E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7453F81-1F34-4D5B-8716-B3182A8292E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7453F81-1F34-4D5B-8716-B3182A8292E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7453F81-1F34-4D5B-8716-B3182A8292E8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C022AFFB-98BF-4E19-AAE1-33C6242C707E} = {AC04A439-6528-4BEB-B966-5A368A898E93}
+		{244B351D-14D3-4C10-9A2E-87FD8399C59F} = {AC04A439-6528-4BEB-B966-5A368A898E93}
+		{7EE0D349-A5B1-4E1B-BD2F-A0F7D2FA6D58} = {AC04A439-6528-4BEB-B966-5A368A898E93}
+		{9A540278-8E2A-4B10-990F-AAD04C87FF42} = {AC04A439-6528-4BEB-B966-5A368A898E93}
+		{4E69BA55-1CA9-4B5C-8774-D72548491C1A} = {AC04A439-6528-4BEB-B966-5A368A898E93}
+		{E7453F81-1F34-4D5B-8716-B3182A8292E8} = {D2F2526F-0EEF-400A-8DF1-40455B644608}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,5 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <ItemGroup>
+    <ProjectReference Include="..\Reshare.Core\Reshare.Core.csproj" />
+  </ItemGroup>
+</Project>
